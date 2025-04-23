@@ -2,7 +2,7 @@
 
 This repository contains a Python script that uses Selenium to automate the process of adding a device to a specific rack unit in the NetBox demo environment.
 
-## 🔧 What the Script Does
+## What the Script Does
 
 1. Opens the **rack detail page** in NetBox (`https://demo.netbox.dev/dcim/racks/39/`).
 2. Switches to the embedded rack diagram (`iframe`) and selects **unit U10**.
@@ -16,14 +16,14 @@ This repository contains a Python script that uses Selenium to automate the proc
 5. Submits the form.
 6. Confirms success by checking for the appearance of a success alert message.
 
-## 🧰 Requirements
+## Requirements
 
 - Python 3.x
 - Google Chrome
 - ChromeDriver (matching your Chrome version)
 - Selenium (`pip install selenium`)
 
-## 🚀 How to Run
+## How to Run
 
 1. Make sure `chromedriver.exe` is in the same directory or update the `driver_path` variable.
 2. Install dependencies:
